@@ -2,6 +2,6 @@ from setuptools import setup, find_packages
 
 setup(
     name="pyexperimentsuite",
-    packages=find_packages(),
+    py_modules=['expsuite'],
     install_requires=['setuptools'],
     )
